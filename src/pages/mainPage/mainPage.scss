@@ -1,0 +1,31 @@
+.mainPage{
+
+    &__item{
+        padding: 0 2rem;
+      a{
+        text-decoration: none;
+      }
+      a > div:hover{
+        transition: .5s;
+        -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.34);
+        -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.34);
+        box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.34);
+      }
+     }
+}
+
+@media (max-width: 768px) {
+  .mainPage{
+    &__item{
+      h1{
+        font-size: 24px;
+      }
+    }
+  }
+}
+
+.mainPage__item_header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

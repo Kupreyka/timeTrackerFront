@@ -1,0 +1,15 @@
+.login {
+  margin-top: 40%;
+  text-align: center;
+
+  &__registration {
+    margin: .5rem 0 2rem 0;
+    a{
+      text-decoration: none;
+      color: black;
+    }
+    a:hover{
+      text-decoration: underline;
+    }
+  }
+}

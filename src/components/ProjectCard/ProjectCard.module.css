@@ -1,0 +1,22 @@
+.mainProjectCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.mainProjectCardItem{
+    padding: 16px;
+}
+
+.btn{
+    margin: 1rem 0!important;
+}
+
+.btn a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.projectName{
+    word-break: break-all;
+}
